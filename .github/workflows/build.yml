@@ -64,7 +64,7 @@ jobs:
       KERNEL_REF_INPUT: ${{ inputs.kernel_ref }}
       STOCK_CONFIG_INPUT: ${{ inputs.stock_config }}
       NOTIFY: ${{ inputs.notify }}
-      GH_TOKEN: ${{ secrets.GH_TOKEN }}
+      GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       TG_BOT_TOKEN: ${{ secrets.TG_BOT_TOKEN }}
       TG_CHAT_ID: ${{ secrets.TG_CHAT_ID }}
     steps:
